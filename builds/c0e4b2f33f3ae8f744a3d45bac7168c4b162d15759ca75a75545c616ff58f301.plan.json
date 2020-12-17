@@ -1,1 +1,0 @@
-{"filename": "builds/c0e4b2f33f3ae8f744a3d45bac7168c4b162d15759ca75a75545c616ff58f301.zip", "runtime": "nodejs12.x", "artifacts_dir": "builds", "build_plan": [["zip", "hello-world", null]]}

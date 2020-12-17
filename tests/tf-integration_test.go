@@ -18,5 +18,5 @@ func TestTerraformHelloWorldFunction(t *testing.T) {
 	terraform.InitAndApply(t, terraformOptions)
 
 	output := terraform.Output(t, terraformOptions, "api_gateway_invoke_url")
-	assert.Contains(t, "execute-api.us-east-2.amazonaws.com/test", output)
+	assert.Contains(t, output, "execute-api.us-east-2.amazonaws.com/test")
 }
